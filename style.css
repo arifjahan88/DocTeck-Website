@@ -17,9 +17,6 @@
     background-color: #289BDE;
     border-radius: 10px;
 }
-.register-box button{
-    color: #289BDE;
-}
 .treatment-patients-details{
     width: 600px;
 }
@@ -34,4 +31,10 @@ h1{
 .footer-part a{
     color: aliceblue;
     margin-right: 10px;
+}
+/* Media query */
+@media screen and (max-width: 992px){
+    .logo-part-visiblity{
+        visibility: hidden;
+    }
 }
