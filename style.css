@@ -18,7 +18,7 @@
     border-radius: 10px;
 }
 .treatment-patients-details{
-    width: 600px;
+    width: 75%;
 }
 h1{
     font-weight: 700;
@@ -32,9 +32,56 @@ h1{
     color: aliceblue;
     margin-right: 10px;
 }
+.logo-part-visiblity img{
+    width: 100px;
+    
+}
+.explore-part{
+    background-color: #F4FAFD;
+    padding-left: 0;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
 /* Media query */
 @media screen and (max-width: 992px){
     .logo-part-visiblity{
         visibility: hidden;
     }
+}
+@media screen and (max-width: 576px){
+    .register-box-details{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .student-part-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-text{
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .explore-part-details{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .explore-part-details img{
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width:576px) and (max-width: 992px){
+    .student-part-box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .explore-part-details img{
+        width: 100%;
+        
+    }
+    
+
 }
