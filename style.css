@@ -13,3 +13,25 @@
     margin-top: 100px;
     margin-bottom: 50px;
 }
+.register-box{
+    background-color: #289BDE;
+    border-radius: 10px;
+}
+.register-box button{
+    color: #289BDE;
+}
+.treatment-patients-details{
+    width: 600px;
+}
+h1{
+    font-weight: 700;
+}
+.footer-part{
+    background-color: #000;
+    color: aliceblue;
+    padding: 100px;
+}
+.footer-part a{
+    color: aliceblue;
+    margin-right: 10px;
+}
